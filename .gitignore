@@ -26,3 +26,11 @@ DataCleaning/raw/Ireland/H7_W.csv
 DataCleaning/raw/Ireland/H8_W.csv
 DataCleaning/raw/Ireland/H9_W.csv
 DataCleaning/raw/Portugal/environment.csv
+DataCleaning/raw/Germany/2018_data_15min.hdf5
+DataCleaning/raw/Germany/2018_data_spatial.hdf5
+DataCleaning/raw/Germany/2018_district_heating_grid.hdf5
+DataCleaning/raw/Germany/2018_weather.hdf5
+DataCleaning/raw/Germany/2019_data_15min.hdf5
+DataCleaning/raw/Germany/2019_weather.hdf5
+DataCleaning/raw/Germany/2020_data_15min.hdf5
+DataCleaning/raw/Germany/2020_weather.hdf5
