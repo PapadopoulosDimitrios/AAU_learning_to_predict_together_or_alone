@@ -131,3 +131,34 @@ Models/Chronos2_LORA_Portugal/README.md
 Models/Chronos2_LORA_Portugal_steps10/adapter_config.json
 Models/Chronos2_LORA_Portugal_steps10/adapter_model.safetensors
 Models/Chronos2_LORA_Portugal_steps10/meta.json
+# ================================
+# External repositories / models
+# ================================
+lag-llama/
+timesfm/
+uni2ts/
+
+# ================================
+# Generated outputs
+# ================================
+Outputs/
+Models/
+
+# ================================
+# Large ML artifacts
+# ================================
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+
+# ================================
+# Notebook junk
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# Python cache
+# ================================
+__pycache__/
+*.pyc
