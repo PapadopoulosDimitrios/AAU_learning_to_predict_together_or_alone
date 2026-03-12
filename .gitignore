@@ -141,7 +141,6 @@ uni2ts/
 # ================================
 # Generated outputs
 # ================================
-Outputs/
 Models/
 
 # ================================
@@ -162,3 +161,18 @@ Models/
 # ================================
 __pycache__/
 *.pyc
+data/outputs/final_predictions_10_houses and 4 steps.csv
+data/outputs/final_predictions_10_houses and 96 steps.csv
+data/outputs/final_predictions_20_houses and 4 steps.csv
+data/outputs/final_predictions_20_houses and 96 steps.csv
+data/outputs/opt_parameters for 10nr. houses and 4 steps.json
+data/outputs/opt_parameters for 10nr. houses and 96 steps.json
+data/outputs/opt_parameters for 20nr. houses and 4 steps.json
+data/outputs/opt_parameters for 20nr. houses and 96 steps.json
+data/plots/actual vs predictions for 10 nr. houses and 4 steps.png
+data/plots/actual vs predictions for 10 nr. houses and 96 steps.png
+data/plots/actual vs predictions for 20 nr. houses and 4 steps.png
+data/plots/actual vs predictions for 20 nr. houses and 96 steps.png
+DataCleaning/clean/net_load_10_buildings.csv
+DataCleaning/clean/net_load_20_buildings.csv
+DataCleaning/clean/weather.csv
