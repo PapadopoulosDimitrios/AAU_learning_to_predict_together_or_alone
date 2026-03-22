@@ -1,40 +1,296 @@
-alias: LSTM
+alias: null
 batch_size: 32
-context_size: 17
+context_size: null
 dataloader_kwargs: null
-decoder_hidden_size: 500
+decoder_hidden_size: 96
 decoder_layers: 3
 drop_last_loader: false
 early_stop_patience_steps: -1
 encoder_bias: true
-encoder_dropout: 0.10689064280895766
-encoder_hidden_size: 150
-encoder_n_layers: 3
+encoder_dropout: 0.2949646431089154
+encoder_hidden_size: 128
+encoder_n_layers: 1
 exclude_insample_y: false
 futr_exog_list: null
-h: !!python/object/apply:numpy._core.multiarray.scalar
-- !!python/object/apply:numpy.dtype
-  args:
-  - i8
-  - false
-  - true
-  state: !!python/tuple
-  - 3
-  - <
-  - null
-  - null
-  - null
-  - -1
-  - -1
-  - 0
-- !!binary |
-  wAAAAAAAAAA=
+h: 528
 h_train: 1
-hist_exog_list: null
-inference_input_size: -1
+hist_exog_list:
+- shortwave_radiation
+- Transformer Power_lag_96
+- Transformer Power_lag_97
+- Transformer Power_lag_98
+- Transformer Power_lag_99
+- Transformer Power_lag_100
+- Transformer Power_lag_101
+- Transformer Power_lag_102
+- Transformer Power_lag_103
+- Transformer Power_lag_104
+- Transformer Power_lag_105
+- Transformer Power_lag_106
+- Transformer Power_lag_107
+- Transformer Power_lag_108
+- Transformer Power_lag_109
+- Transformer Power_lag_110
+- Transformer Power_lag_111
+- Transformer Power_lag_120
+- Transformer Power_lag_121
+- Transformer Power_lag_122
+- Transformer Power_lag_123
+- Transformer Power_lag_124
+- Transformer Power_lag_125
+- Transformer Power_lag_126
+- Transformer Power_lag_127
+- Transformer Power_lag_128
+- Transformer Power_lag_129
+- Transformer Power_lag_130
+- Transformer Power_lag_131
+- Transformer Power_lag_132
+- Transformer Power_lag_133
+- Transformer Power_lag_134
+- Transformer Power_lag_135
+- Transformer Power_lag_136
+- Transformer Power_lag_137
+- Transformer Power_lag_138
+- Transformer Power_lag_139
+- Transformer Power_lag_140
+- Transformer Power_lag_141
+- Transformer Power_lag_142
+- Transformer Power_lag_143
+- Transformer Power_lag_144
+- Transformer Power_lag_145
+- Transformer Power_lag_146
+- Transformer Power_lag_147
+- Transformer Power_lag_148
+- Transformer Power_lag_149
+- Transformer Power_lag_150
+- Transformer Power_lag_151
+- Transformer Power_lag_152
+- Transformer Power_lag_153
+- Transformer Power_lag_154
+- Transformer Power_lag_155
+- Transformer Power_lag_156
+- Transformer Power_lag_157
+- Transformer Power_lag_158
+- Transformer Power_lag_159
+- Transformer Power_lag_160
+- Transformer Power_lag_161
+- Transformer Power_lag_162
+- Transformer Power_lag_163
+- Transformer Power_lag_164
+- Transformer Power_lag_165
+- Transformer Power_lag_166
+- Transformer Power_lag_167
+- Transformer Power_lag_168
+- Transformer Power_lag_169
+- Transformer Power_lag_177
+- Transformer Power_lag_178
+- Transformer Power_lag_179
+- Transformer Power_lag_180
+- Transformer Power_lag_181
+- Transformer Power_lag_182
+- Transformer Power_lag_183
+- Transformer Power_lag_184
+- Transformer Power_lag_185
+- Transformer Power_lag_186
+- Transformer Power_lag_187
+- Transformer Power_lag_188
+- Transformer Power_lag_189
+- Transformer Power_lag_190
+- Transformer Power_lag_191
+- Transformer Power_lag_192
+- shortwave_radiation_lag_1
+- shortwave_radiation_lag_2
+- shortwave_radiation_lag_3
+- shortwave_radiation_lag_4
+- shortwave_radiation_lag_5
+- shortwave_radiation_lag_6
+- shortwave_radiation_lag_7
+- humidity_lag_11
+- humidity_lag_12
+- shortwave_radiation_lag_13
+- humidity_lag_13
+- shortwave_radiation_lag_14
+- humidity_lag_14
+- shortwave_radiation_lag_15
+- humidity_lag_15
+- shortwave_radiation_lag_16
+- humidity_lag_16
+- temperature_lag_17
+- shortwave_radiation_lag_17
+- humidity_lag_17
+- temperature_lag_18
+- shortwave_radiation_lag_18
+- humidity_lag_18
+- temperature_lag_19
+- shortwave_radiation_lag_19
+- humidity_lag_19
+- temperature_lag_20
+- shortwave_radiation_lag_20
+- humidity_lag_20
+- temperature_lag_21
+- shortwave_radiation_lag_21
+- humidity_lag_21
+- temperature_lag_22
+- shortwave_radiation_lag_22
+- humidity_lag_22
+- temperature_lag_23
+- shortwave_radiation_lag_23
+- humidity_lag_23
+- temperature_lag_24
+- shortwave_radiation_lag_24
+- humidity_lag_24
+- temperature_lag_25
+- shortwave_radiation_lag_25
+- humidity_lag_25
+- temperature_lag_26
+- shortwave_radiation_lag_26
+- humidity_lag_26
+- temperature_lag_27
+- shortwave_radiation_lag_27
+- humidity_lag_27
+- temperature_lag_28
+- shortwave_radiation_lag_28
+- humidity_lag_28
+- shortwave_radiation_lag_29
+- humidity_lag_29
+- shortwave_radiation_lag_30
+- humidity_lag_30
+- shortwave_radiation_lag_31
+- humidity_lag_31
+- shortwave_radiation_lag_32
+- humidity_lag_32
+- shortwave_radiation_lag_33
+- humidity_lag_33
+- shortwave_radiation_lag_34
+- humidity_lag_34
+- shortwave_radiation_lag_35
+- humidity_lag_35
+- shortwave_radiation_lag_36
+- humidity_lag_36
+- shortwave_radiation_lag_37
+- humidity_lag_37
+- shortwave_radiation_lag_38
+- cloud_cover_lag_38
+- shortwave_radiation_lag_39
+- cloud_cover_lag_39
+- shortwave_radiation_lag_40
+- cloud_cover_lag_40
+- shortwave_radiation_lag_41
+- cloud_cover_lag_41
+- shortwave_radiation_lag_42
+- cloud_cover_lag_42
+- shortwave_radiation_lag_43
+- cloud_cover_lag_43
+- shortwave_radiation_lag_44
+- cloud_cover_lag_44
+- shortwave_radiation_lag_45
+- cloud_cover_lag_45
+- cloud_cover_lag_46
+- cloud_cover_lag_47
+- cloud_cover_lag_48
+- humidity_lag_49
+- humidity_lag_50
+- humidity_lag_51
+- humidity_lag_52
+- shortwave_radiation_lag_53
+- humidity_lag_53
+- shortwave_radiation_lag_54
+- humidity_lag_54
+- shortwave_radiation_lag_55
+- humidity_lag_55
+- temperature_lag_56
+- shortwave_radiation_lag_56
+- humidity_lag_56
+- temperature_lag_57
+- shortwave_radiation_lag_57
+- humidity_lag_57
+- temperature_lag_58
+- shortwave_radiation_lag_58
+- humidity_lag_58
+- temperature_lag_59
+- shortwave_radiation_lag_59
+- humidity_lag_59
+- temperature_lag_60
+- shortwave_radiation_lag_60
+- humidity_lag_60
+- temperature_lag_61
+- shortwave_radiation_lag_61
+- humidity_lag_61
+- temperature_lag_62
+- shortwave_radiation_lag_62
+- humidity_lag_62
+- temperature_lag_63
+- shortwave_radiation_lag_63
+- humidity_lag_63
+- temperature_lag_64
+- shortwave_radiation_lag_64
+- humidity_lag_64
+- temperature_lag_65
+- shortwave_radiation_lag_65
+- humidity_lag_65
+- temperature_lag_66
+- shortwave_radiation_lag_66
+- humidity_lag_66
+- temperature_lag_67
+- shortwave_radiation_lag_67
+- humidity_lag_67
+- temperature_lag_68
+- shortwave_radiation_lag_68
+- humidity_lag_68
+- temperature_lag_69
+- shortwave_radiation_lag_69
+- humidity_lag_69
+- shortwave_radiation_lag_70
+- humidity_lag_70
+- shortwave_radiation_lag_71
+- humidity_lag_71
+- shortwave_radiation_lag_72
+- humidity_lag_72
+- shortwave_radiation_lag_73
+- humidity_lag_73
+- shortwave_radiation_lag_74
+- humidity_lag_74
+- shortwave_radiation_lag_75
+- humidity_lag_75
+- shortwave_radiation_lag_76
+- humidity_lag_76
+- shortwave_radiation_lag_77
+- humidity_lag_77
+- shortwave_radiation_lag_78
+- humidity_lag_78
+- shortwave_radiation_lag_79
+- humidity_lag_79
+- shortwave_radiation_lag_80
+- humidity_lag_80
+- shortwave_radiation_lag_81
+- humidity_lag_81
+- shortwave_radiation_lag_82
+- humidity_lag_82
+- shortwave_radiation_lag_83
+- humidity_lag_83
+- shortwave_radiation_lag_84
+- humidity_lag_84
+- shortwave_radiation_lag_85
+- humidity_lag_85
+- shortwave_radiation_lag_86
+- humidity_lag_86
+- shortwave_radiation_lag_87
+- shortwave_radiation_lag_88
+- shortwave_radiation_lag_89
+- shortwave_radiation_lag_90
+- shortwave_radiation_lag_91
+- shortwave_radiation_lag_92
+- shortwave_radiation_lag_93
+- shortwave_radiation_lag_94
+- shortwave_radiation_lag_95
+- shortwave_radiation_lag_96
+- hour
+- hour_sin
+- hour_cos
+inference_input_size: null
 inference_windows_batch_size: 1024
-input_size: -1
-learning_rate: 0.0010053507326141747
+input_size: 528
+learning_rate: 0.004571262160362153
 loss: !!python/object:neuralforecast.losses.pytorch.MAE
   _backward_hooks: !!python/object/apply:collections.OrderedDict
   - []
@@ -77,9 +333,9 @@ n_series: 1
 num_lr_decays: -1
 optimizer: null
 optimizer_kwargs: null
-random_seed: 1
+random_seed: 42
 recurrent: false
-scaler_type: robust
+scaler_type: minmax
 start_padding_enabled: false
 stat_exog_list: null
 step_size: 1
