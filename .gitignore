@@ -144,7 +144,7 @@ uni2ts/
 # Generated outputs
 # ================================
 Models/
-Outputs/
+
 
 GlobalModels/lightning_logs/
 LocalModels/lightning_logs/
