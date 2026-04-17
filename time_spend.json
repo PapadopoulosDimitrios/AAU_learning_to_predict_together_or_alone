@@ -21,7 +21,7 @@
         "TiDE": 34618.116565942764
     },
     "Local": {
-        "CatBoost": 3000,
-        "XGBoost": 3000
+        "XGBoost": 3000,
+        "ElasticNet": 897.82772564888
     }
 }
