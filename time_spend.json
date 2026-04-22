@@ -23,7 +23,9 @@
     },
     "Local": {
         "Ridge": 1325.4500844478607,
-        "ElasticNet": 1237.166422367096
+        "ElasticNet": 1237.166422367096,
+        "XGBoost": 7256.787346839905,
+        "LGBM": 4791.242795944214
     },
     "Foundational": {
         "Chronosboltbase": 6.526036262512207,
