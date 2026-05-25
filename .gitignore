@@ -137,7 +137,7 @@ Models/Chronos2_LORA_Portugal_steps10/
 # External repositories / models
 # ================================
 lag-llama/
-timesfm/
+/timesfm/
 uni2ts/
 
 # ================================
@@ -184,3 +184,4 @@ data/plots/actual vs predictions for 20 nr. houses and 96 steps.png
 DataCleaning/clean/net_load_10_buildings.csv
 DataCleaning/clean/net_load_20_buildings.csv
 DataCleaning/clean/weather.csv
+time_spend.json
